@@ -1,0 +1,27 @@
+{
+  "name": "kalkulator-desktop",
+  "version": "1.0.0",
+  "description": "Aplikasi Kalkulator Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Ryshaal",
+  "license": "ISC",
+  "build": {
+    "appId": "com.ryshaal.kalkulator",
+    "productName": "Kalkulator Desktop",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "devDependencies": {
+    "electron": "^25.3.1",
+    "electron-builder": "^24.13.3"
+  }
+}
