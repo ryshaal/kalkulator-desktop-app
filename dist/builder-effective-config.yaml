@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.ryshaal.kalkulator
+productName: Kalkulator Desktop
+win:
+  target: nsis
+  icon: icon.ico
+files: []
+electronVersion: 25.9.8
